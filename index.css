@@ -1,0 +1,78 @@
+.octocat {
+  border: 0;
+  color: #fff;
+  fill: #06d6a0;
+  height: 5.2rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 5.2rem;
+  z-index: 2;
+}
+
+.octocat:hover .octocat-arm {
+    animation: b .56s infinite;
+    transform-origin: 13rem 10.6rem
+}
+
+.octocat .octocat-arm,.octocat .octocat-body {
+    fill: #fff;
+}
+
+.main.container {
+  margin-top: 2rem;
+  padding-bottom: 0rem;
+}
+
+.main.container ol li {
+  margin-bottom: .2rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.footer {
+  padding: 2rem 0 0rem;
+}
+
+.footer .copyright {
+    padding-right: 6rem
+}
+
+.footer .nav {
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.footer .nav .link {
+    display: inline-block;
+    margin-left: 1.2rem;
+    padding: 0
+}
+
+.footer .nav .icon {
+    fill: #06d6a0;
+    height: 2rem
+}
+
+.footer .nav .icon:hover {
+    fill: #02c39a
+}
+
+#body {
+  height: 12rem;
+}
+
+#link {
+  min-height: 0;
+  border: none;
+  padding: 5px 10px 0px 10px;
+  margin: 0;
+}
